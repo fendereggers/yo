@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: system-ui, sans-serif;
+  background: #0f1115;
+  color: #f5f7fa;
+}
+
+.card {
+  padding: 40px;
+  border-radius: 16px;
+  background: #171a20;
+  border: 1px solid #24272f;
+  text-align: center;
+}
+
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #9aa3b2;
+}
+
+h1 {
+  margin: 8px 0 12px;
+  font-size: 32px;
+}
+
+button {
+  margin-top: 16px;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: #c8f751;
+  color: #0b0d10;
+  font-weight: 600;
+  cursor: pointer;
+}
